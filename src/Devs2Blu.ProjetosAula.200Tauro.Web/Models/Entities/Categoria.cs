@@ -14,5 +14,7 @@ namespace Devs2Blu.ProjetosAula._200Tauro.Web.Models.Entities
         [Display(Name = "Nome")]
         [Column("Nome")]
         public string Nome { get; set; }
+
+        public ICollection<Conteudo>? Conteudos { get; set; }
     }
 }
