@@ -1,8 +1,243 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Página Inicial";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="carouselExampleControls" class="carousel slide bg-secondary" style="--bs-bg-opacity: .3;" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p style="text-align: center;">Cadastre-se no adiClub para receber <b>15% de desconto</b></p>
+    </div>
+    <div class="carousel-item">
+      <p style="text-align: center;"><b>OFERTAS</b> para garantir o melhor da 200Tauro</p>
+    </div>
+    <div class="carousel-item">
+      <p style="text-align: center;"><b>FRETE GRÁTIS</b> para todo o Brasil</p>
+    </div>
+  </div>
+</div>
+
+<div class="promocao">
+    <h2>Promoção</h2>
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner">
+    
+  <div class="carousel-item active">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/TenisFem/TenisNikeAirFemBranco.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Air Zoom Pegasus 39 Feminino</h5>
+      <p class="card-text"><small class="text-muted">R$299,90</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisFem/TenisNikeAirFemPreto.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Air Zoom Pegasus 39 Feminino</h5>
+      <p class="card-text"><small class="text-muted">R$399</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisFem/TenisNikeEscapeVerdeFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Escape Run Flyknit Feminino</h5>
+      <p class="card-text"><small class="text-muted">R$578,99</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/TenisFem/TenisNikeFlexExpRunFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Flex Experience Run 11 Next Nature Feminino</h5>
+      <p class="card-text"><small class="text-muted">R$759,50</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisFem/TenisNikeSwiftPretoFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Run Swift 2 Feminino</h5>
+      <p class="card-text"><small class="text-muted">R$179,80</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisFem/TenisNikeZoomXDegradeAzulVerdeFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike ZoomX Vaporfly Next% 2 Feminino</h5>
+      <p class="card-text"><small class="text-muted">R$925,36</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/TenisMasc/TenisNikeAirZoomLaranjaMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Air Zoom Alphafly NEXT% 2 Masculino</h5>
+      <p class="card-text"><small class="text-muted">R$500,00</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisMasc/TenisNikeAirZoomPretoMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Air Zoom Pegasus 39 Masculino</h5>
+      <p class="card-text"><small class="text-muted">R$489,30</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisMasc/TenisNikeAirZoomVerdeMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Air Zoom Tempo NEXT% Masculino</h5>
+      <p class="card-text"><small class="text-muted">R$869</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/TenisMasc/TenisNikePegasusCinzaMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Pegasus Turbo Next Nature Masculino</h5>
+      <p class="card-text"><small class="text-muted">R$427,90</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisMasc/TenisNikeReact3Masc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike React Infinity Run Flyknit 3 Masculino</h5>
+      <p class="card-text"><small class="text-muted">R$568,35</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/TenisMasc/TenisNikeRevolution6AzulMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Nike Revolution 6 Next Nature Masculino</h5>
+      <p class="card-text"><small class="text-muted">R$285,00</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/CamisaFem/CamisaNikeAirDriFITFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Regata Nike Air Dri-FIT Feminina</h5>
+      <p class="card-text"><small class="text-muted">R$150,90</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaFem/CamisaNikeBrasil2022Fem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camisa Nike Brasil II 2022/23 Torcedora Pro Feminina</h5>
+      <p class="card-text"><small class="text-muted">R$632,25</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaFem/CamisaNikeCourtFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Regata NikeCourt Victory Feminina</h5>
+      <p class="card-text"><small class="text-muted">R$285,33</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/CamisaFem/CamisaNikeEssentialsFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Sportswear Essentials Feminina</h5>
+      <p class="card-text"><small class="text-muted">R$179,90</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaFem/CamisaNikeSportsCasualClubFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Sportswear Club Feminina</h5>
+      <p class="card-text"><small class="text-muted">R$110,10</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaFem/CamisaNikeSportsIconClashFem.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Sportswear Icon Clash Feminina</h5>
+      <p class="card-text"><small class="text-muted">R$180,90</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/CamisaMasc/CamisaNikeBrasil2022Masc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camisa Nike Brasil I 2022/23 Torcedor Pro Masculina</h5>
+      <p class="card-text"><small class="text-muted">R$199,99</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaMasc/CamisaNikeBreatheMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Breathe Masculina</h5>
+      <p class="card-text"><small class="text-muted">R$399,99</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaMasc/CamisaNikeCountryMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Sportswear Country Brasil Masculina</h5>
+      <p class="card-text"><small class="text-muted">R$265,55</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card-group">
+  <div class="card border-primary">
+    <img src="~/img/CamisaMasc/CamisaNikeDriFITMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Dri-FIT Run Division Masculina</h5>
+      <p class="card-text"><small class="text-muted">R$515,90</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaMasc/CamisaNikeLegendMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Legend 2.0 Masculina</h5>
+      <p class="card-text"><small class="text-muted">R$245,66</small></p>
+    </div>
+  </div>
+  <div class="card border-primary">
+    <img src="~/img/CamisaMasc/CamisaNikeSportClubMasc.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Nike Sportswear Club Masculina</h5>
+      <p class="card-text"><small class="text-muted">R$263,90</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 </div>
