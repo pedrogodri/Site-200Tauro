@@ -10,7 +10,7 @@ namespace Devs2Blu.ProjetosAula._200Tauro.Web.Models.Entities
         public int Id { get; set; }
 
         [Display(Name = "Conteúdo")]
-        public int ConteudoID { get; set; }
+        public int ConteudoId { get; set; }
 
 
         [Display(Name = "Imagem")]

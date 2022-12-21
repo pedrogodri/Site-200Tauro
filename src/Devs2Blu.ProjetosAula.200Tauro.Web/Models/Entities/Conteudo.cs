@@ -34,7 +34,7 @@ namespace Devs2Blu.ProjetosAula._200Tauro.Web.Models.Entities
         [Column("CreatedDate")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString ="{0:MM/dd/yyyy}")]
         public DateTime CreatedDate{ get; set; }
-        public virtual ICollection<Imagem> Imagens{ get; set; }
+        public virtual ICollection<Imagem>? Imagens{ get; set; }
 
 
     }

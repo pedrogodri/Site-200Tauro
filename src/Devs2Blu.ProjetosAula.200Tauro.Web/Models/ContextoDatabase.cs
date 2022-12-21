@@ -39,10 +39,10 @@ namespace Devs2Blu.ProjetosAula._200Tauro.Web.Models
 
             modelBuilder.Entity<Newsletter>()
               .HasData(
-              new { Id = 1, Nome = "Patrick Weber", Email = "patrick.weber@gmail.com" },
-              new { Id = 2, Nome = "Gustavo Soares", Email = "gustavo.soares@gmail.com" },
-              new { Id = 3, Nome = "Pedro Godri", Email = "pedro.godri@gmail.com" },
-              new { Id = 4, Nome = "Alexandre Schwanke", Email = "alexandre.schwanke" }
+              new { Id = 1, Nome = "Patrick Weber", Email = "patrick.weber@gmail.com", Ativo = true },
+              new { Id = 2, Nome = "Gustavo Soares", Email = "gustavo.soares@gmail.com", Ativo = true },
+              new { Id = 3, Nome = "Pedro Godri", Email = "pedro.godri@gmail.com", Ativo = true },
+              new { Id = 4, Nome = "Alexandre Schwanke", Email = "alexandre.schwanke", Ativo = true }
               );
 
             modelBuilder.Entity<ConfiguracaoSistema>()
