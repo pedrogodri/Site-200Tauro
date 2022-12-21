@@ -32,7 +32,10 @@ namespace Devs2Blu.ProjetosAula._200Tauro.Web.Models.Entities
         public bool IsDeleted{ get; set; }
 
         [Column("CreatedDate")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString ="{0:MM/dd/yyyy}")]
         public DateTime CreatedDate{ get; set; }
-        public List<Imagem> Imagens{ get; set; }
+        public virtual ICollection<Imagem> Imagens{ get; set; }
+
+
     }
 }

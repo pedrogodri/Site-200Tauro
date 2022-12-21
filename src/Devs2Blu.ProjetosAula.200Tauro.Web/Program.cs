@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using Devs2Blu.ProjetosAula._200Tauro.Web.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ContextoDatabase>
+    (options => {
+        options.UseMySql(
+            "server=localhost;initial catalog=200Tauro;uid=root;pwd=11912Ick",
+            Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql"));
+    });
 
 var app = builder.Build();
 
