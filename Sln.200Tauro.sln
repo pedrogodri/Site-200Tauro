@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devs2Blu.ProjetosAula.200Tauro.Web", "src\Devs2Blu.ProjetosAula.200Tauro.Web\Devs2Blu.ProjetosAula.200Tauro.Web.csproj", "{990E6F59-C727-428D-ABDF-A018B4955EF7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{990E6F59-C727-428D-ABDF-A018B4955EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990E6F59-C727-428D-ABDF-A018B4955EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990E6F59-C727-428D-ABDF-A018B4955EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990E6F59-C727-428D-ABDF-A018B4955EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
