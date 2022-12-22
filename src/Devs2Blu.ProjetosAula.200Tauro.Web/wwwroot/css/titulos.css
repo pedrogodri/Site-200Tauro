@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    border: 0.1px solid #000000;
+}
+
+.creat {
+    border-radius: 20px;
+}
+
+
+    .creat a {
+        text-decoration: none;
+    }
