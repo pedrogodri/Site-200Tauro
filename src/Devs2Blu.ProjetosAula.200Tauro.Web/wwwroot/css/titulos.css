@@ -1,21 +1,57 @@
-.title {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.main {
+    margin: 20px auto;
+    max-width: 1100px;
+    background-color: white;
+    padding: 30px 2%;
+}
+.pokemon-boxes {
+    margin: 20px 0;
     display: flex;
-    align-content: flex-start;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
-button {
-    display: flex;
-    align-content: flex-start;
-    justify-content: center;
-    border: 0.1px solid #000000;
+.pokemon-box .pokemon-boxx{
+    margin-right:200px
+}
+main .pokemon-box {
+    border-radius: 10px;
+    margin: 10px;
+    width: max-content;
+    margin-right: 20px 2%;
+    background-color: rgb(230, 230, 230);
+}
+.pokemon-box a {
+    color: cornflowerblue;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 0;
 }
 
-.creat {
-    border-radius: 20px;
-}
-
-
-    .creat a {
-        text-decoration: none;
+    .pokemon-box div {
+        color: black;
+        font-size: 21px;
+        text-align: center;
+        padding: 10px 0;
     }
+
+.cards{
+    display:flex;
+}
+
+
+
+main .pokemon-boxes .cards .pokemon-box a{
+    display:flex;
+    margin:10px
+}
+   
