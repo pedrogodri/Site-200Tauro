@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: aqua;
 }
-
 .main {
     margin: 20px auto;
     max-width: 1100px;
@@ -18,10 +16,6 @@ body {
     margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
-}
-
-.pokemon-box .pokemon-boxx{
-    margin-right:200px
 }
 main .pokemon-box {
     border-radius: 10px;
@@ -36,22 +30,14 @@ main .pokemon-box {
     text-align: center;
     padding: 10px 0;
 }
-
-    .pokemon-box div {
+.pokemon-box div {
         color: black;
         font-size: 21px;
         text-align: center;
         padding: 10px 0;
-    }
-
+}
 .cards{
     display:flex;
 }
 
-
-
-main .pokemon-boxes .cards .pokemon-box a{
-    display:flex;
-    margin:10px
-}
    
