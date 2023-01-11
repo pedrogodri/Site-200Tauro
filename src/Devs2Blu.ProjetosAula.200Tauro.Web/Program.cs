@@ -7,11 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ContextoDatabase>
-    (options => {
-        options.UseMySql(
-            "server=localhost;initial catalog=200Tauro;uid=root;pwd=11912Ick",
-            Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql"));
-    });
+    (options => options.UseSqlServer("Server=DESKTOP-JB24L2U;Database=SiteTauro;User Id=sa;Password=admin;"));
 
 var app = builder.Build();
 

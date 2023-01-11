@@ -4,6 +4,7 @@ using Devs2Blu.ProjetosAula._200Tauro.Web.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Devs2Blu.ProjetosAula._200Tauro.Web.Migrations
 {
     [DbContext(typeof(ContextoDatabase))]
-    partial class ContextoDatabaseModelSnapshot : ModelSnapshot
+    [Migration("20221221213629_MigSiteTauro")]
+    partial class MigSiteTauro
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
